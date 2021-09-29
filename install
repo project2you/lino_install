@@ -87,9 +87,9 @@ python-dev \
 build-essential \
 python-gudev
 
-sudo easy_install pip
-sudo python2.7 -m pip install -U platformio
-sudo rm -rf $HOME/.platformio/
+#sudo easy_install pip
+#sudo python2.7 -m pip install -U platformio
+#sudo rm -rf $HOME/.platformio/
 
 source /opt/ros/$ROSDISTRO/setup.bash
 

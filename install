@@ -89,7 +89,6 @@ python-gudev
 
 python3 -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
 export PATH=$PATH:~/.platformio/penv/bin
-echo "export PATH=$PATH:~/.platformio/penv/bin" >> ~/.bashrc
 
 
 source /opt/ros/$ROSDISTRO/setup.bash

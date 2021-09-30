@@ -84,8 +84,12 @@ avahi-daemon \
 openssh-server \
 python-setuptools \
 python-dev \
-build-essential \
-python-gudev
+build-essential 
+
+sudo apt-get install -y python-gobject
+wget https://launchpad.net/ubuntu/+archive/primary/+files/python-gudev_147.2-3_arm64.deb
+sudo dpkg -i python-gudev_147.2-3_arm64.deb
+sudo apt install -f
 
 python3 -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
 export PATH=$PATH:~/.platformio/penv/bin
